@@ -1,0 +1,43 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+    border: 1px solid white;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 414px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 320px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

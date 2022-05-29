@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+@mixin h{
+  width: 280px;
+  height: 41px;
+  border: 1px solid #FF9900;
+  border-radius: 60px 0 0 60px;
+  background: #FF9900;
+  transition: .4s;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+&:hover{
+  transform: scale(1.1);
+}
+}
+@mixin hh{
+  width: 150px;
+  height: 41px;
+  border: 1px solid #FF9900;
+  border-radius: 0  60px  60px 0;
+  background: transparent;
+  transition: .4s;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+@mixin  sena{
+  width: 83px;
+  height: 25px;
+  background: #FF9900;
+  border-radius: 60px;
+  border: 1px solid #FF9900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .4s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+@mixin table{
+  width: 250px;
+  height: 51px;
+  background: #FF9900;
+  border-radius: 20px;
+  border: 1px solid #FF9900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .4s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+@mixin our{
+  background: transparent;
+  border: 1px solid #FF9900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .4s;
+  width: 270px;
+  height: 63px;
+  border-radius: 60px;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
